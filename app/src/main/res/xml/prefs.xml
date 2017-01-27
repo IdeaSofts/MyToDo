@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="@string/prefsListSortOrderTitle"
+        android:key="prefsListSortOrder"
+        android:defaultValue="true" />
+
+    <com.idea.todo.prefs.MinMaxDialogPreference
+        android:title="@string/prefsListItemSizeTitle"
+        android:key="prefsListItemSize" />
+
+    <com.idea.todo.prefs.ColorDialogPreference
+        android:title="@string/prefsDateCurrentColorTitle"
+        android:key="prefsDateCurrentColor"
+        android:summary="@string/prefsDateCurrentColorSummary" />
+
+    <com.idea.todo.prefs.ColorDialogPreference
+        android:title="@string/prefsDateFutureColorTitle"
+        android:key="prefsDateFutureColor"
+        android:summary="@string/prefsDateFutureColorSummary" />
+
+    <com.idea.todo.prefs.ColorDialogPreference
+        android:title="@string/prefsDatePastColorTitle"
+        android:key="prefsDatePastColor"
+        android:summary="@string/prefsDatePastColorSummary" />
+
+    <com.idea.todo.prefs.AutoMoveDialogPreference
+        android:title="@string/prefsAutoMoveTitle"
+        android:key="prefsAutoMove" />
+
+</PreferenceScreen>

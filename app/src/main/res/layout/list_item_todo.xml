@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/ui__spacing_unit_1x"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="2dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:contentPadding="5dp"
+        android:layout_margin="@dimen/ui__spacing_unit_1x"
+        android:background="@drawable/card_border2"
+        >
+
+
+        <Button
+            android:id="@+id/btnOptions"
+            android:text="@string/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ui__spacing_unit_2x"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_options"
+            />
+
+        <LinearLayout
+            android:id="@+id/containerTxtViews"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ui__spacing_unit_1x"
+            android:layout_weight="1.0">
+
+            <com.idea.todo.view.EllipsizeTextView
+                android:id="@+id/tvToDoTitle"
+                android:textSize="18.0sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDx="0.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                style="@style/Style.TextAppearance.Octane.ReceiptDialog.DriverName"/>
+
+            <TextView
+                android:id="@+id/tvDateCreated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Style.Custom.TripTracker.Driver.Text.Weak"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tvDateModified"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Style.Custom.TripTracker.Driver.Text.Weak"
+                android:visibility="gone"/>
+
+            <TextView
+                android:textSize="14.0sp"
+                android:id="@+id/tvDateSummary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:layout_marginBottom="5.0dip" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

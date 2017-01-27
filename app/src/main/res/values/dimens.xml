@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ui__spacing_unit_1x">8.0dip</dimen>
+    <dimen name="ui__avatar_medium">64.0dip</dimen>
+    <dimen name="ub__action_bar_height">56.0dip</dimen>
+    <dimen name="ub__padding_small">10.0dip</dimen>
+    <dimen name="padding_dialog">40.0dip</dimen>
+    <dimen name="min_height">100.0dip</dimen>
+    <dimen name="ui__spacing_unit_2x">16.0dip</dimen>
+    <dimen name="octane_receipt_divider">1.0dip</dimen>
+    <dimen name="text_size_medium">15.0sp</dimen>
+    <dimen name="text_size_small">12.0sp</dimen>
+
+    <dimen name="about_app_version_text_size">16.0sp</dimen>
+    <dimen name="about_app_version_top_margin">7.0dip</dimen>
+    <dimen name="about_app_version_bottom_margin">5dip</dimen>
+    <dimen name="about_button_group_margin">5.0dip</dimen>
+    <dimen name="about_button_height">40.0dip</dimen>
+    <dimen name="about_button_margin">1.0dip</dimen>
+    <dimen name="about_bottom_icons_size">65.0dip</dimen>
+    <dimen name="category_row_margin">5dip</dimen>
+
+</resources>

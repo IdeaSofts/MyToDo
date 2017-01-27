@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <TextView
+        android:textSize="18.0sp"
+        android:gravity="center_horizontal"
+        android:id="@+id/mainMessageView"
+        android:padding="5.0dip"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerToDos"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="1.0"
+        />
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        
+        <Spinner
+            android:id="@+id/spinnerGroups"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0" />
+        
+        <Button
+            android:id="@+id/mainAddItemButton"
+            android:textSize="14.0sp"
+            android:textColor="#ffffffff"
+            android:background="@drawable/custom_button_end"
+            android:layout_width="0.0dip"
+            android:layout_height="match_parent"
+            android:text="@string/mainAddItemButton"
+            android:layout_weight="1.0"
+            android:visibility="invisible"/>
+        
+    </LinearLayout>
+</LinearLayout>

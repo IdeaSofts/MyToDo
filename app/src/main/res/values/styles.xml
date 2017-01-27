@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+
+    <style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_overflow</item>
+    </style>
+
+    <!--TabLayout-->
+    <style name="myCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/MyCustomTabText</item>
+        <item name="tabSelectedTextColor">@color/tab_text_act</item>
+    </style>
+    <style name="MyCustomTabText" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/tab_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Style.TextAppearance.Octane.ReceiptDialog.DriverName"
+        parent="@style/TextAppearance.H4">
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">end</item>
+        <!--<activity_todo name="android:singleLine">true</activity_todo>-->
+    </style>
+
+    <style name="TextAppearance.H4" parent="@style/Custom.TextAppearance">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/black_100</item>
+        <item name="android:lineSpacingMultiplier">1.25</item>
+        <item name="fontPath">@string/font_medium</item>
+    </style>
+
+    <style name="TextAppearance.H2" parent="@style/Custom.TextAppearance">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/black_60</item>
+        <item name="android:lineSpacingMultiplier">1.25</item>
+    </style>
+
+    <style name="Custom.TextAppearance" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Style.Custom.TextAppearance.Octane.Dialog" parent="@style/TextAppearance.H2">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_100</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Style.Custom.TripTracker.Driver.Text.Weak" parent="@style/Style.Rider.Trip.Driver.Text.Weak">
+        <item name="android:textSize">11.0sp</item>
+    </style>
+
+    <style name="Style.Rider.Trip.Driver.Text.Weak" parent="@style/Style.Rider.Trip.Driver.Text">
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:textColor">@color/black_40</item>
+    </style>
+
+    <style name="Style.Rider.Trip.Driver.Text" parent="">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/oka_black_80</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_gravity">center|top</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="fontPath">@string/font_narrow_medium</item>
+    </style>
+
+    <style name="clock">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- This theme is similar to the Theme.Dialog.Alert but does not rely on a
+     non-public resource. -->
+    <style name="alarm_alert" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

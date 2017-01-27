@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawerItemNewToDo"
+            android:title="@string/itemAddTitle" />
+
+        <item
+            android:id="@+id/drawerItemSelectGroup"
+            android:title="@string/group_select" />
+
+           <item
+            android:id="@+id/drawerItemGroupOptions"
+            android:title="@string/group_options" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/drawerItemNow"
+            android:title="@string/mainTabNow" />
+
+        <item
+            android:id="@+id/drawerItemLate"
+            android:title="@string/mainTabLater" />
+
+        <item
+            android:id="@+id/drawerItemDone"
+            android:title="@string/mainTabDone" />
+
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawerItemSettings"
+            android:title="@string/prefs" />
+
+        <item
+            android:id="@+id/drawerItemMore"
+            android:title="@string/more" />
+
+        <item
+            android:id="@+id/drawerItemAbout"
+            android:title="@string/about" />
+
+    </group>
+</menu>

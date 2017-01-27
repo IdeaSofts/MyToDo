@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/include_toolbar"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ub__padding_small"
+        >
+
+        <Button
+            android:id="@+id/btnPickTime"
+            android:text="@string/set_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ui__spacing_unit_2x"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ic_alarm"
+            />
+
+        <TextView
+            android:textSize="18.0sp"
+            android:textColor="#ffffffff"
+            android:gravity="center"
+            android:id="@+id/tvToDoDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8.0dip"
+            android:shadowColor="#ff000000"
+            android:shadowDx="0.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:gravity="top"
+            android:id="@+id/inputToDoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6.0dip"
+            android:layout_marginTop="6.0dip"
+            android:layout_marginRight="6.0dip"
+            android:layout_marginBottom="2.0dip"
+            android:hint="@string/todo_title"
+            android:layout_weight="1.0" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:gravity="top"
+            android:id="@+id/inputToDoDetail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="@dimen/min_height"
+            android:layout_marginLeft="6.0dip"
+            android:layout_marginTop="6.0dip"
+            android:layout_marginRight="6.0dip"
+            android:layout_marginBottom="2.0dip"
+            android:hint="@string/itemDetailHint"
+            android:layout_weight="1.0" />
+
+    </android.support.design.widget.TextInputLayout>
+
+  
+</LinearLayout>

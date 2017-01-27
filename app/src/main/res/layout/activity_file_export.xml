@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/inputFileExportName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:hint="@string/fileExportNameHint"
+        android:inputType="text" />
+
+    <ProgressBar
+        android:id="@+id/progressBarExport"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5.0dip"
+        style="?android:attr/progressBarStyleHorizontal" />
+
+    <TextView
+        android:id="@+id/tvFileInfo"
+        android:textSize="14.0sp"
+        android:ellipsize="end"
+        android:padding="5.0dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <include layout="@layout/include_recycler_files"/>
+
+    <Button
+        android:id="@+id/btnExport"
+        android:background="@drawable/custom_button_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fileExportButton" />
+
+</LinearLayout>

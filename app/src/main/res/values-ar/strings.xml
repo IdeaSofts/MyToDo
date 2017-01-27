@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="app_name">مهماتى</string>
+	<string name="applicationTitle">قائمة مهماتى</string>
+	<string name="aboutVersion" formatted="false">الإصدار %s</string>
+	<string name="ok">موافق</string>
+	<string name="about">حول</string>
+	<string name="cancel">إلغاء</string>
+	<string name="warning">تحذير</string>
+	<string name="error">خطأ</string>
+	<string name="unknown">غير معروف</string>
+	<string name="databaseError">حدث خطأ في قاعدة البيانات</string>
+	<string name="mainMenuGroups">المجموعات</string>
+	<string name="mainMenuPrefs">إعدادات</string>
+	<string name="mainMenuAbout">حول</string>
+	<string name="prefs">تفضيلات</string>
+	<string name="mainTabNow">الآن</string>
+	<string name="mainTabLater">فيمابعد</string>
+	<string name="mainTabDone">تم</string>
+	<string name="mainListEmpty">لا يوجد مهمات</string>
+	<string name="mainAddItemButton">إضافة مهمة</string>
+	<string name="itemListContextNow">الآن</string>
+	<string name="itemListContextLater">نفذ فيمابعد</string>
+	<string name="itemListContextDone">تمت المهمة</string>
+	<string name="itemListContextEdit">تعديل</string>
+	<string name="itemListContextDelete">حذف</string>
+	<string name="itemListContextDeleteAll">حذف الكل</string>
+	<string name="itemDetailHint">تفاصيل المهمة</string>
+	<string name="todo_title">عنوان المهمة</string>
+	<string name="itemSetGroup">تعيين مجموعة</string>
+	<string name="itemSetDate">ضبط التاريخ</string>
+	<string name="itemClearDate">حذف التاريخ</string>
+	<string name="save">حفظ</string>
+	<string name="itemClearDateMessage">سيتم إزالة التاريخ.</string>
+	<string name="itemAddTitle">إضافة مهمة جديدة</string>
+	<string name="itemEditTitle">تعديل</string>
+	<string name="group_select">حدد مجموعة</string>
+	<string name="group_add">إضافة مجموعة</string>
+	<string name="group_options">خيارات المجموعة</string>
+	<string name="more">مزيد</string>
+	<string name="itemDeleteTitle">حذف</string>
+	<string name="itemDeleteMessage">سيتم حذف المهمة.</string>
+	<string name="itemDeleteAllTitle">حذف الكل</string>
+	<string name="itemDeleteAllMessage">سيتم حذف مجموعة مهمات.</string>
+	<string name="itemGroupTitle" formatted="false">%s مهمة في المجموعة %s</string>
+	<string name="itemAllGroupsTitle" formatted="false">%s مهمة في كل مجموعة</string>
+	<string name="itemDaysToday" formatted="false">%s، اليوم</string>
+	<string name="itemDaysTomorrow" formatted="false">%s، غدا</string>
+	<string name="itemDaysToGo" formatted="false">%s, d يوم/أيام قادمة</string>
+	<string name="itemDaysYesterday" formatted="false">%s، أمس</string>
+	<string name="itemDaysOverdue" formatted="false">%s، منذ أيام %s</string>
+	<string name="itemSaveFailedMessage">تعذر حفظ المهمة</string>
+	<string name="itemUpdateFailedMessage">تعذر تحديث المهمة</string>
+	<string name="itemDeleteFailedMessage">لا يمكن حذف المهمة</string>
+	<string name="itemsDeleteFailedMessage">لا يمكن حذف مجموعة المهمات</string>
+	<string name="groupListContextEdit">تعديل</string>
+	<string name="groupListContextDelete">حذف</string>
+	<string name="groupAddButton">إضافة مجموعة</string>
+	<string name="groupAddTitle">إضافة مجموعة</string>
+	<string name="groupEditTitle">تعديل مجموعة</string>
+	<string name="groupDeleteTitle">حذف</string>
+	<string name="groupDeleteMessage" formatted="false">"ستحذف هذه المجموعة : %s"</string>
+	<string name="groupNameAllGroups">كل المجموعات</string>
+	<string name="groupCreateFailedMessage">تعذر إنشاء مجموعة</string>
+	<string name="groupDeleteFailedMessage">لا يمكن حذف المجموعة</string>
+	<string name="groupUpdateFailedMessage">تعذر تحديث مجموعة</string>
+	<string name="aboutMenuImport">استيراد قاعدة بيانات</string>
+	<string name="aboutMenuExport">تصدير قاعدة البيانات</string>
+	<string name="fileImportTitle">استيراد</string>
+	<string name="fileImportConfirmMessage" formatted="false">"سيتم استيراد هذا الملف: %s"</string>
+	<string name="fileImportWarningMessage">سيتم فقدان البيانات للمهمات الحالية.</string>
+	<string name="fileImportMessageSuccess">تم الاستيراد بنجاح.</string>
+	<string name="fileImportMessageCancelled">تم إلغاء عملية الاستيراد</string>
+	<string name="fileImportMessageFailure" formatted="false">"فشل الاستيراد: %s"</string>
+	<string name="fileExportTitle">تصدير</string>
+	<string name="fileExportNameHint">الاسم</string>
+	<string name="fileExportButton">تصدير</string>
+	<string name="fileExportMessageSuccess">التصدير تم بنجاح.</string>
+	<string name="fileExportMessageCancelled">تم إلغاء التصدير</string>
+	<string name="fileExportMessageFailure" formatted="false">"فشل التصدير: %s"</string>
+	<string name="prefsListSortOrderTitle">ترتيب فرز القائمة</string>
+	<string name="prefsListSortOrderCreatedDate">فرز قائمة المهمات حسب تاريخ الإنشاء</string>
+	<string name="prefsListSortOrderReminderDate">فرز قائمة المهمات بتاريخ التذكير</string>
+	<string name="prefsListItemSizeTitle">حجم قائمة المهمات</string>
+	<string name="prefsListItemSizeSummarySingle" formatted="false">سوف تشغل قائمة المهمات خط واحد</string>
+	<string name="prefsListItemSizeSummaryPlural" formatted="false">سوف تشغل قائمة المهمات خطوط %s</string>
+	<string name="prefsListItemSizeSummaryMultiple" formatted="false">سوف تشغل قائمة المهمات بين %s و %s خطوط</string>
+	<string name="prefsListItemMinLinesSingle" formatted="false">الحد الأدنى للحجم: الخط %s</string>
+	<string name="prefsListItemMinLinesPlural" formatted="false">الحد الأدنى للحجم: خطوط %s</string>
+	<string name="prefsListItemMaxLinesSingle" formatted="false">الحد الأقصى لحجم: الخط %s</string>
+	<string name="prefsListItemMaxLinesPlural" formatted="false">الحد الأقصى لحجم: خطوط %s</string>
+	<string name="prefsDateCurrentColorTitle">لون التاريخ الحالي</string>
+	<string name="prefsDateCurrentColorSummary">"سيتم إظهار تاريخ اليوم في هذا اللون"</string>
+	<string name="prefsDateFutureColorTitle">لون تاريخ فيما بعد</string>
+	<string name="prefsDateFutureColorSummary">سيتم عرض التواريخ في المستقبل في هذا اللون</string>
+	<string name="prefsDatePastColorTitle">لون المهمات التى فى الماضى</string>
+	<string name="prefsDatePastColorSummary">سيتم عرض التواريخ في الماضي في هذا اللون</string>
+	<string name="prefsAutoMoveTitle">تحديد أولويات </string>
+	<string name="prefsAutoMoveDisabled">لاتنفذ الأولوية تلقائياً</string>
+	<string name="prefsAutoMoveToday">تحديد الأولويات في اليوم</string>
+	<string name="prefsAutoMoveSingle">تحديد الأولويات عند يوم واحد فى المستقبل</string>
+	<string name="prefsAutoMovePlural" formatted="false">تحديد الأولويات عند %s يوما للذهاب</string>
+	<string name="options">خيارات</string>
+	<string name="set_alarm">تعيين تنبية</string>
+	<string name="update_alarm">تحديث التنبيه</string>
+	<string name="date">تاريخ</string>
+	<string name="modified">تعديل</string>
+	<string name="created">أنشئت</string>
+	<string name="noExternalStorage">عذراً لايوجد تخزين خارجى، سيتم إنهاء العملية.</string>
+	<string name="group_already_set" formatted="false">مهمة تم بالفعل تعيين للمجموعة: %s</string>
+	<string name="group_success_set" formatted="false">مهمة يتم تعيين للمجموعة: %s بنجاح</string>
+	<string name="default_label">إنذار</string>
+	<string name="never">ابدأ</string>
+	<string name="every_day">كل يوم</string>
+	<string name="day_concat">"، "</string>
+	<string name="silent_alarm_summary">صامت</string>
+	<string name="done">تم</string>
+	<string name="revert">العودة</string>
+	<string name="time">الوقت</string>
+	<string name="alert">نغمة الرنين</string>
+	<string name="alarm_vibrate">اهتزاز</string>
+	<string name="alarm_repeat">تكرار</string>
+	<string name="label">العنوان</string>
+	<string name="day">"يوم 1"</string>
+	<string name="minute">"دقيقة"</string>
+	<string name="invalid_time">يجب عليك اختيار وقت في المستقبل!!</string>
+	<string name="must_pick_time">يجب عليك اختيار وقت!!</string>
+	<string name="hour">1 ساعة</string>
+	<string name="delete_alarm">حذف التنبيه</string>
+	<string name="days" formatted="false">"أيام <xliff:g id="days"> %s </xliff:g>"</string>
+	<string name="minutes" formatted="false">"<xliff:g id="minutes"> %s </xliff:g> دقيقة"</string>
+	<string name="hours" formatted="false">ساعات <xliff:g id="hours"> %s </xliff:g></string>
+	<string name="alarm_alert_snooze_text">قيلولة بعد الظهر</string>
+	<string name="alarm_alert_dismiss_text">إنهاء</string>
+	<string name="alarm_notify_snooze_label" formatted="false"><xliff:g id="label"> %s </xliff:g> (استبعاده)</string>
+	<string name="alarm_notify_text">قم بتفعيل الغفوة أو إنهاء التنبيه</string>
+	<string name="alarm_alert_snooze_set" formatted="false">الغفوة ل <xliff:g id="minutes"> % d </xliff:g> دقيقة.</string>
+	<string name="alarm_alert_alert_silenced" formatted="false">إنذار صامت بعد <xliff:g id="minutes"> % d </xliff:g> دقيقة</string>
+	<string name="activity_title_about">حول</string>
+	<string name="about_app">حول</string>
+	<string name="app_version">الإصدار</string>
+	<string name="btn_share_title">مشاركة التطبيق</string>
+	<string name="btn_other_apps_title"> تطبيقاتنا</string>
+	<string name="btn_rate_title">تقييم التطبيق</string>
+	<string name="btn_feedback_title">اقتراح</string>
+	<string name="description1">مشاركة التطبيق(</string>
+	<string name="description2">) لأندرويد</string>
+	<string name="sent_by_txt">أرسل بواسطة:</string>
+	<string name="about_feedback_title">ملاحظات حول التطبيق</string>
+
+	<string-array name="alarm_set">
+		<item>تم ضبط التنبيه لأقل من دقيقة من الآن.</item>
+		<item>This alarmInfo is set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> من الآن.</item>
+		<item>This alarmInfo is set for <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> من الآن.</item>
+		<item>This alarmInfo is set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> من الآن.</item>
+		<item>This alarmInfo is set for <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+		<item>This alarmInfo is set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> و <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> من الآن.</item>
+		<item>This alarmInfo is set for <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> و <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> من الآن.</item>
+		<item>This alarmInfo is set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, و <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> من الآن.</item>
+	</string-array>
+</resources>

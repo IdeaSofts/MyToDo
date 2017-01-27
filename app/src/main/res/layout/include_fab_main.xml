@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.github.clans.fab.FloatingActionMenu
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fabBase"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    fab:menu_labels_ellipsize="end"
+    fab:menu_labels_singleLine="true"
+    fab:menu_colorNormal="#cc1a639b"
+    fab:menu_backgroundColor="#ccffffff"
+    fab:menu_labels_textSize="18sp"
+    >
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabAddToDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        fab:fab_size="mini"
+        fab:fab_label="@string/itemAddTitle"
+        fab:rippleColor="@android:color/transparent"
+        fab:backgroundTint="@android:color/transparent"
+        fab:fab_colorNormal="@android:color/transparent"
+        />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabGroupSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group"
+        fab:fab_size="mini"
+        fab:fab_label="@string/group_select"
+        fab:fab_colorNormal="@android:color/transparent"
+        />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabGroupOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group"
+        fab:fab_size="mini"
+        fab:fab_label="@string/group_options"
+        fab:fab_colorNormal="@android:color/transparent"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabPrefs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_prefs"
+        fab:fab_size="mini"
+        fab:fab_label="@string/prefs"
+        fab:fab_colorNormal="@android:color/transparent"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_more"
+        fab:fab_size="mini"
+        fab:fab_label="@string/more"
+        fab:fab_colorNormal="@android:color/transparent"/>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_about"
+        fab:fab_size="mini"
+        fab:fab_label="@string/mainMenuAbout"
+        fab:fab_colorNormal="@android:color/transparent"/>
+
+</com.github.clans.fab.FloatingActionMenu>

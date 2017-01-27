@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.idea.todo">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.android.alarmInfo.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:icon="@drawable/ic_launcher_todo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <provider
+            android:name="com.idea.todo.wrapper.alarm.AlarmProvider"
+            android:authorities="com.idea.todo"
+            android:exported="false"/>
+
+        <activity
+            android:label="@string/app_name"
+            android:name="com.idea.todo.activity.MainActivity"
+            >
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"/>
+                <category
+                    android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.idea.todo.activity.ToDoActivity"/>
+        <activity
+            android:label="@string/mainMenuGroups"
+            android:name="com.idea.todo.activity.GroupOptionsActivity"/>
+        <activity
+            android:label="@string/mainMenuPrefs"
+            android:name="com.idea.todo.activity.PrefsActivity"/>
+        <activity
+            android:label="@string/mainMenuAbout"
+            android:name="com.idea.todo.activity.AboutActivity"/>
+        <activity
+            android:label="@string/aboutMenuImport"
+            android:name="com.idea.todo.activity.file.FileImportActivity"/>
+
+        <activity android:name="com.idea.todo.activity.SettingsActivity"/>
+        <activity android:name=".activity.alarm.SetAlarmActivity"/>
+        <activity android:name=".activity.alarm.alert.AlarmAlertFullScreenActivity"/>
+
+        <activity android:name=".activity.alarm.alert.AlarmAlertActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/alarm_alert"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation"/>
+
+        <activity
+            android:label="@string/aboutMenuExport"
+            android:name="com.idea.todo.activity.file.FileExportActivity"
+            android:windowSoftInputMode="stateUnchanged"/>
+
+        <receiver android:name="com.idea.todo.wrapper.alarm.AlarmReceiver">
+            <intent-filter>
+                <action android:name="com.idea.todo.ALARM_ALERT" />
+                <action android:name="alarm_killed" />
+                <action android:name="cancel_snooze" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.idea.todo.wrapper.alarm.AlarmInitReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

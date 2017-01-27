@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">My ToDo</string>
+    <string name="applicationTitle">ToDo List</string>
+    <string name="aboutVersion" formatted="false">Version %s</string>
+    <string name="ok">OK</string>
+    <string name="about">About</string>
+    <string name="cancel">Cancel</string>
+    <string name="warning">Warning</string>
+    <string name="error">Error</string>
+    <string name="unknown">Unknown</string>
+    <string name="databaseError">A database error has occurred</string>
+    <string name="mainMenuGroups">Groups</string>
+    <string name="mainMenuPrefs">Settings</string>
+    <string name="mainMenuAbout">About</string>
+    <string name="prefs">Preferences</string>
+    <string name="mainTabNow">Now</string>
+    <string name="mainTabLater">Later</string>
+    <string name="mainTabDone">Done</string>
+    <string name="mainListEmpty">Nothing to do</string>
+    <string name="mainAddItemButton">Add ToDo </string>
+    <string name="itemListContextNow">Do now</string>
+    <string name="itemListContextLater">Do later</string>
+    <string name="itemListContextDone">Done</string>
+    <string name="itemListContextEdit">Edit</string>
+    <string name="itemListContextDelete">Delete</string>
+    <string name="itemListContextDeleteAll">Delete all</string>
+    <string name="itemDetailHint">ToDo description</string>
+    <string name="todo_title">ToDo Title</string>
+    <string name="itemSetGroup">Set Group</string>
+    <string name="itemSetDate">Set Date</string>
+    <string name="itemClearDate">Clear Date</string>
+    <string name="save">SAVE</string>
+    <string name="itemClearDateMessage">The date will be removed.</string>
+    <string name="itemAddTitle">Add new ToDo</string>
+    <string name="itemEditTitle">Edit</string>
+    <string name="group_select">Select Group</string>
+    <string name="group_add">Add Group</string>
+    <string name="group_options">Group Options</string>
+    <string name="more">More</string>
+    <string name="itemDeleteTitle">Delete</string>
+    <string name="itemDeleteMessage">The ToDo will be deleted.</string>
+    <string name="itemDeleteAllTitle">Delete All</string>
+    <string name="itemDeleteAllMessage">Multiple ToDo List will be deleted.</string>
+    <string name="itemGroupTitle" formatted="false">%s ToDo in %s group</string>
+    <string name="itemAllGroupsTitle" formatted="false">%s ToDo in all group</string>
+    <string name="itemDaysToday" formatted="false">%s, Today</string>
+    <string name="itemDaysTomorrow" formatted="false">%s, Tomorrow</string>
+    <string name="itemDaysToGo" formatted="false">%s, %d days to go</string>
+    <string name="itemDaysYesterday" formatted="false">%s, Yesterday</string>
+    <string name="itemDaysOverdue" formatted="false">%s, %s days ago</string>
+    <string name="itemSaveFailedMessage">The ToDo could not be saved</string>
+    <string name="itemUpdateFailedMessage">The ToDo could not be updated</string>
+    <string name="itemDeleteFailedMessage">The ToDo could not be deleted</string>
+    <string name="itemsDeleteFailedMessage">The ToDoList could not be deleted</string>
+    <string name="groupListContextEdit">Edit</string>
+    <string name="groupListContextDelete">Delete</string>
+    <string name="groupAddButton">Add Group</string>
+    <string name="groupAddTitle">Add Group</string>
+    <string name="groupEditTitle">Edit Group</string>
+    <string name="groupDeleteTitle">Delete</string>
+    <string name="groupDeleteMessage" formatted="false">"This group will be deleted:
+%s"</string>
+    <string name="groupNameAllGroups">All Groups</string>
+    <string name="groupCreateFailedMessage">The group could not be created</string>
+    <string name="groupDeleteFailedMessage">The group could not be deleted</string>
+    <string name="groupUpdateFailedMessage">The group could not be updated</string>
+    <string name="aboutMenuImport">Import Database</string>
+    <string name="aboutMenuExport">Export Database</string>
+    <string name="fileImportTitle">Import</string>
+    <string name="fileImportConfirmMessage" formatted="false">"This file will be imported:
+%s"</string>
+    <string name="fileImportWarningMessage">The current ToDo List data will be lost.</string>
+    <string name="fileImportMessageSuccess">The import was successful.</string>
+    <string name="fileImportMessageCancelled">The import was cancelled</string>
+    <string name="fileImportMessageFailure" formatted="false">"The import failed:
+%s"</string>
+    <string name="fileExportTitle">Export</string>
+    <string name="fileExportNameHint">Name</string>
+    <string name="fileExportButton">Export</string>
+    <string name="fileExportMessageSuccess">The export was successful.</string>
+    <string name="fileExportMessageCancelled">The export was cancelled</string>
+    <string name="fileExportMessageFailure" formatted="false">"The export failed:
+%s"</string>
+    <string name="prefsListSortOrderTitle">List Sort Order</string>
+    <string name="prefsListSortOrderCreatedDate">Sort list ToDoList by date created</string>
+    <string name="prefsListSortOrderReminderDate">Sort list ToDoList by reminder date</string>
+    <string name="prefsListItemSizeTitle">List ToDo Size</string>
+    <string name="prefsListItemSizeSummarySingle" formatted="false">List ToDoList will occupy a single line</string>
+    <string name="prefsListItemSizeSummaryPlural" formatted="false">List ToDoList will occupy %s lines</string>
+    <string name="prefsListItemSizeSummaryMultiple" formatted="false">List ToDoList will occupy between %s and %s lines</string>
+    <string name="prefsListItemMinLinesSingle" formatted="false">Minimum size: %s line</string>
+    <string name="prefsListItemMinLinesPlural" formatted="false">Minimum size: %s lines</string>
+    <string name="prefsListItemMaxLinesSingle" formatted="false">Maximum size: %s line</string>
+    <string name="prefsListItemMaxLinesPlural" formatted="false">Maximum size: %s lines</string>
+    <string name="prefsDateCurrentColorTitle">Current Date Color</string>
+    <string name="prefsDateCurrentColorSummary">"Today's date will be shown in this color"</string>
+    <string name="prefsDateFutureColorTitle">Future Date Color</string>
+    <string name="prefsDateFutureColorSummary">Dates in the future will be shown in this color</string>
+    <string name="prefsDatePastColorTitle">Past Date Color</string>
+    <string name="prefsDatePastColorSummary">Dates in the past will be shown in this color</string>
+    <string name="prefsAutoMoveTitle">Automatic Prioritization</string>
+    <string name="prefsAutoMoveDisabled">Do not prioritize automatically</string>
+    <string name="prefsAutoMoveToday">Prioritize on the day</string>
+    <string name="prefsAutoMoveSingle">Prioritize when 1 day to go</string>
+    <string name="prefsAutoMovePlural" formatted="false">Prioritize when %s days to go</string>
+    <string name="options">Options</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="update_alarm">Update Alarm</string>
+    <string name="date">Date</string>
+    <string name="modified">Modified</string>
+    <string name="created">Created</string>
+    <string name="noExternalStorage">Sorry, No External Storage, the process will be terminated.</string>
+    <string name="group_already_set" formatted="false">The ToDo is already set to Group : %s</string>
+    <string name="group_success_set" formatted="false">The ToDo is set to Group : %s successfully</string>
+
+    <string name="font_news" translatable="false">fonts/ClanPro-News.otf</string>
+    <string name="font_medium" translatable="false">fonts/ClanPro-Medium.otf</string>
+    <string name="font_narrow_medium" translatable="false">fonts/ClanPro-NarrMedium.otf</string>
+    <string name="font_book" translatable="false">fonts/ClanPro-Book.otf</string>
+
+    <string name="default_label">Alarm</string>
+    <string name="never">Never</string>
+    <string name="every_day">every day</string>
+    <string name="day_concat">", "</string>
+    <string name="silent_alarm_summary">Silent</string>
+    <string name="done">Done</string>
+    <string name="revert">Revert</string>
+    <string name="time">Time</string>
+    <string name="alert">Ringtone</string>
+    <string name="alarm_vibrate">Vibrate</string>
+    <string name="alarm_repeat">Repeat</string>
+    <string name="label">Label</string>
+    <string name="day">"1 day"</string>
+    <string name="minute">"1 minute"</string>
+    <string name="invalid_time">You must pick a time in the future!!</string>
+    <string name="must_pick_time">You must pick a time!!</string>
+    <string name="hour">1 hour</string>
+    <string name="delete_alarm">Delete alarm</string>
+    <string name="days" formatted="false">"<xliff:g id="days">%s</xliff:g> days"</string>
+    <string name="minutes" formatted="false">"<xliff:g id="minutes">%s</xliff:g> minutes"</string>
+    <string name="hours" formatted="false"><xliff:g id="hours">%s</xliff:g> hours</string>
+    <string name="alarm_alert_snooze_text">Snooze</string>
+    <string name="alarm_alert_dismiss_text">Dismiss</string>
+    <string name="alarm_notify_snooze_label" formatted="false"><xliff:g id="label">%s</xliff:g> (snoozed)</string>
+    <string name="alarm_notify_text">Select to snooze or dismiss this alarm.</string>
+    <string name="alarm_alert_snooze_set" formatted="false">Snoozing for <xliff:g id="minutes">%d</xliff:g> minutes.</string>
+    <string name="alarm_alert_alert_silenced" formatted="false">Alarm silenced after <xliff:g id="minutes">%d</xliff:g> minutes</string>
+
+    <!--ABOUT-->
+    <string name="activity_title_about">About</string>
+    <string name="about_app">About</string>
+    <string name="app_version">Version</string>
+    <string name="btn_share_title">Share App</string>
+    <string name="btn_other_apps_title">Our Apps</string>
+    <string name="btn_rate_title">Rate App</string>
+    <string name="btn_feedback_title">Feedback</string>
+    <string name="description1">Shared via application (</string>
+    <string name="description2">) for Android</string>
+    <string name="sent_by_txt">Sent from :</string>
+    <string name="about_feedback_title">Feedback about app</string>
+
+
+    <string-array name="alarm_set">
+        <item>This alarmInfo is set for less than 1 minute from now.</item>
+        <item>This alarmInfo is set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> from now.</item>
+        <item>This alarmInfo is set for <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
+        <item>This alarmInfo is set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> from now.</item>
+        <item>This alarmInfo is set for <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+        <item>This alarmInfo is set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+        <item>This alarmInfo is set for <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+        <item>This alarmInfo is set for <xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g> from now.</item>
+    </string-array>
+</resources>

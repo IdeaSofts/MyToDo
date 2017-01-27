@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.github.clans.fab.FloatingActionMenu
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fabBase"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    fab:menu_labels_ellipsize="end"
+    fab:menu_labels_singleLine="true"
+    fab:menu_colorNormal="#cc1a639b"
+    fab:menu_backgroundColor="#ccffffff"
+    fab:menu_labels_textSize="18sp">
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fabGroupAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group"
+        fab:fab_size="mini"
+        fab:fab_label="@string/group_add"
+        fab:fab_colorNormal="@android:color/transparent"
+        />
+
+</com.github.clans.fab.FloatingActionMenu>
